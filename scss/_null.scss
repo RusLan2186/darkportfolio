@@ -78,3 +78,15 @@ h6 {
 	font-weight: 400;
 }
 /*--------------------*/
+
+.bigred {
+	font-size: 20px;
+	color: red;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
