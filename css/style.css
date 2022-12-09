@@ -238,6 +238,36 @@ span {
   opacity: 0.7;
 }
 
+.back {
+  position: fixed;
+  right: 50px;
+  bottom: -150px;
+  z-index: 50;
+  color: #e3e4e6;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bc3cd8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .back {
+    bottom: -50px;
+  }
+}
+.back.active {
+  bottom: 150px;
+}
+@media (max-width: 767.98px) {
+  .back.active {
+    bottom: 50px;
+  }
+}
+
 .page {
   flex: 1 1 auto;
 }
