@@ -257,6 +257,7 @@ span {
 @media (max-width: 767.98px) {
   .back {
     bottom: -50px;
+    right: 20px;
   }
 }
 .back.active {

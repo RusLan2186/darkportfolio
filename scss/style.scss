@@ -141,6 +141,7 @@ span {
    cursor: pointer;
    @media (max-width: 767.98px) {
       bottom: -50px;
+      right: 20px;
    }
    &.active {
       bottom: 150px;
